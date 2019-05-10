@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Expanded');
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Expanded|Varela+Round');
+
+body {
+  background-color: #414754;}
+
+h1 {color:#E3E8F0;
+ text-align: center;
+font-family: 'Encode Sans Expanded', sans-serif;
+font-style: extra-bold;
+font-size: 60px;
+line-height: 45px;}
+
+p {
+  color: #E3E8F0;
+font-family: 'Varela Round', sans-serif;
+font-size: 18px;
+  text-align: center;}
+
+label {
+  color: #E3E8F0;
+font-family: 'Varela Round', sans-serif;
+font-size: 18px;
+}
+
+textarea {
+  width: 600px;
+  height: 50px;
+  background-color: #E3E8F0;
+  font-family: 'Varela Round';
+  font-color: #414754;
+  font-size: 16px;
+}
+
+#main {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+
+
+#header {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+#name-field {
+  margin: 20px;
+}
+
+#email-field {
+  margin: 20px;
+}
+
+#number-field {
+  margin: 20px;
+}
+
+#new-senior {
+  margin: 20px;
+}
+
+#veteran {
+  margin: 20px;
+}
+
+#carey-to-locklear {
+  text-align: justify;
+  margin-left: 60px;
+  margin-top: 20px;
+  
+}
+
+#mccallum-to-smith {
+  text-align: justify;
+  margin-left: 60px;
+  
+}
+
+#blakely-to-jones {
+  text-align: justify;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+#lee-to-shchennikova {
+  text-align: justify;
+  margin-left: 60px;
+}
+
+#thomas-to-wong {
+  text-align: justify;
+  margin-left: 60px;
+  
+}
+
+#national-team {
+  margin: 20px;
+}
+
+#predictions {
+  margin: 20px;
+}
+
+#predictions-textarea {
+  text-align: center;
+  margin: 20px;
+  
+}
+
+#submit-button {
+  text-align: center;
+}
+
+#submit {
+  background-color: #E3E8F0;
+  color: #414754;
+  font-size: 20px;
+  border-radius: 10%;
+  width: 100px;
+  height: 30px;
+}
+
+#name {
+  background-color: #E3E8F0;
+  color: #414754;
+  font-size: 16px;
+}
+
+#email {
+  background-color: #E3E8F0;
+  color: #414754;
+  font-size: 16px;
+}
+
+#number {
+  background-color: #E3E8F0;
+  color: #414754;
+  font-size: 16px;
+  width: 250px;
+}
+
+#name-label,
+#email-label,
+#number-label,
+#new-senior-label {
+  margin-right: 10px;
+}
+

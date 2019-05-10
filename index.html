@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>FCC: Gymternet Worlds Team Predictions Survey</title>
+  
+  
+  
+      <link rel="stylesheet" href="style.css">
+
+  
+</head>
+
+<body>
+
+  
+<div id="header">
+<h1 id="title">Gymternet Survey</h1>
+  <p id="description">
+    Who will make the US Worlds team?
+  </p>
+</div>
+<div id="main">
+  <form id="survey-form">
+    <div id="name-field">
+      <label id="name-label" for="name">*Name: </label>
+      <input id="name" type="text" required placeholder="Enter your name">
+    </div>
+    <div id="email-field">
+      <label id="email-label" for="email">*Email:</label>
+      <input id="email" type="email" required placeholder="Enter your email">
+    </div>
+    <div id="number-field">
+      <label id="number-label" for="number">How many Worlds have you watched this quad?</label>
+      <input type="number" name="number" id="number" min="0" max="2" placeholder="Input a number between 0 and 2">
+    </div>
+    <div id="new-senior">
+      <label id="new-senior-label" for="new-senior">How many new seniors will make the team?</label>
+      <select id="dropdown" name="new-senior" class="dropdown">
+     <option value="none">None</option>
+     <option value="1">1</option>
+     <option value="2">2</option>
+     <option value="3">3</option>
+     <option value="4">4</option>
+     <option value="5">5</option>
+   </select>
+    </div>
+<div id="veteran">
+<label>Which Worlds veteran from the current quad is most likely to join Simone Biles on the all-around podium?</label>
+<div id="carey-to-locklear">
+  <label for="carey">
+      <input id="carey" type="radio" name="veteran" value="1"> Jade Carey</label>
+  <label for="eaker">
+      <input id="eaker" type="radio" name="veteran" value="2"> Kara Eaker</label>
+  <label for="hurd">
+      <input id="hurd" type="radio" name="veteran" value="3"> Morgan Hurd</label>
+  <label for="locklear">
+    <input id="locklear" type="radio" name="veteran" value="4"> Ashton Locklear</label></div>
+  <div id="mccallum-to-smith">
+  <label for="mccallum">
+      <input id="mccallum" type="radio" name="veteran" value="5"> Grace McCallum</label>
+  <label for="mccusker">
+      <input id="mccusker" type="radio" name="veteran" value="6"> Riley McCusker</label>
+  <label for="skinner">
+      <input id="skinner" type="radio" name="veteran" value="7"> MyKayla Skinner</label>
+  <label for="smith">
+    <input id="smith" type="radio" name="veteran" value="8"> Ragan Smith</label></div>
+</div>
+<div id="national-team">
+  <label>Which current national team members will make a Worlds team for the first time?</label>
+  <div id="blakely-to-jones">
+    <label for="blakely"><input id="blakely" type="checkbox" name="national-team" value="1"> Sloane Blakely</label>
+    <label for="chiles"><input id="chiles" type="checkbox" name="national-team" value="2"> Jordan Chiles</label>
+    <label for="finnegan"><input id="finnegan" type="checkbox" name="national-team" value="3"> Aleah Finnegan</label>
+    <label for="jones"><input id="jones" type="checkbox" name="national-team" value="4"> Shilese Jones</label></div>
+  <div id="lee-to-shchennikova">
+    <label for="lee"><input id="lee" type="checkbox" name="national-team" value="5"> Sunisa Lee</label>
+    <label for="malabuyo"><input id="malabuyo" type="checkbox" name="national-team" value="6"> Emma Malabuyo</label>
+    <label for="perea"><input id="perea" type="checkbox" name="national-team" value="7"> Gabby Perea</label>
+    <label for="shchennikova"><input id="shchennikova" type="checkbox" name="national-team" value="8"> Alyona Shchennikova</label></div>
+  <div id="thomas-to-wong">
+    <label for="thomas"><input id="thomas" type="checkbox" name="national-team" value="9"> Trinity Thomas</label>
+    <label for="wong"><input id="wong" type="checkbox" name="national-team" value="10"> Leanne Wong</label>
+  </div>
+</div>
+<div id="predictions">
+  <label for="predictions">Any other predictions?</label>
+  <div id="predictions-textarea"><textarea name="predictions" maxlength="500" placeholder="Skinner wins bars, Hurd debuts a Cheng/Amanar combo, and Biles sweeps the WAG and MAG AA titles!"></textarea>
+  </div></div>
+<div id="submit-button">    
+  <button id="submit" type="submit">Submit</button></div>
+</form>
+</div>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
